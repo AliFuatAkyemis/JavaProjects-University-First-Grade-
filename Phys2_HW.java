@@ -17,7 +17,7 @@ public class Phys2_HW_20210808043 {
 		System.out.println("VN : " + dotElecPot(1, 1, 1, 1, 2000000000));
 	}
 	
-	public static double dotElecPot(double L/*Up/Down side length of shape*/, double x/*Horizontal distance between p point and charges*/, double Q/*The value of each charges*/, double p/*P point's charge*/, int N/*Number of chargers*/) {
+	public static double dotElecPot(double L, double x, double Q, double p/, int N) {
 		double k = (8.99 * Math.pow(10, -9));
 		double yLength = (L / (N -1));
 		double sumPot = 0;
@@ -29,7 +29,7 @@ public class Phys2_HW_20210808043 {
 		return sumPot * 2;
 	}
 	
-	public static double stickElecPot(double L/*Up/Down side length of the stick*/, double x/*Horizontal distance between p point and the stick*/, double Q/*The charge of stick*/, double p/*P point's charge*/) {
+	public static double stickElecPot(double L, double x, double Q, double p) {
 		double k = (8.99 * Math.pow(10, -9));
 		double sumPot = (((k * Q)/2L) * (Math.log(((Math.hypot(L, x) + L) / (Math.hypot(L, x) - L)))));
 		
