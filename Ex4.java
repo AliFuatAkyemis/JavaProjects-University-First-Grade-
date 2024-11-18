@@ -1,8 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
-//@author Ali Fuat Akyemiş - 20210808043
-//@since 03.04.2023 - 18.43
+
 public class Ex4_20210808043 {
 	public static void main(String[] args) {
 		
