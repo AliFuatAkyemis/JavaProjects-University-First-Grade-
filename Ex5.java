@@ -1,6 +1,5 @@
 import java.util.ArrayList;
-//@author Ali Fuat Akyemiş - 20210808043
-//@since 26.04.2023 - 00:35
+
 public class Ex5_20210808043 {
 	public static void main(String[] args) throws Exception {
 		Customer customer = new Customer("Ali Fuat");
