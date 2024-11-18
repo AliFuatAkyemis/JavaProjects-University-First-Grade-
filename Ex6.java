@@ -6,8 +6,7 @@ import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 import java.nio.charset.StandardCharsets;
 import java.security.Key;
-//@author Ali Fuat Akyemiş - 20210808043
-//@since 30.04.2023 - 06:01
+
 public class Ex6_20210808043 {
 	public static void main(String[] args) {
 		
