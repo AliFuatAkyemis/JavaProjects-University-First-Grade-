@@ -1,7 +1,6 @@
 import java.nio.file.attribute.AclEntry;
 import java.util.ArrayList;
-//@author Ali Fuat Akyemiş - 20210808043
-//@since 08.04.2023 - 17:16
+
 public class Assignment02_20210808043 {
 	public static void main(String[] args) {
 		Store s = new Store("Migros", "www.migros.com.tr");
