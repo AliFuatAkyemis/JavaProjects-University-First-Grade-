@@ -1,8 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
-//@Ali Fuat Akyemiş - 20210808043
-//@since 12.05.2023 - 00:12
+
 public class Ex7_20210808043 {
 	public static void main(String[] args) {
 		Warrior warrior = new Warrior("alifuat");
