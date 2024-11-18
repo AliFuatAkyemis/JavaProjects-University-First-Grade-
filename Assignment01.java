@@ -1,6 +1,5 @@
 import java.util.ArrayList;
-//@author Ali Fuat Akyemiş - 20210808043
-//@since 28.03.2023 - 01:02
+
 public class Assignment01_20210808043 {
 	public static void main(String[] args) {
 		Store s = new Store("Migros","www.migros.com");
